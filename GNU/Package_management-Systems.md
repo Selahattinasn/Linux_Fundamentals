@@ -1,3 +1,3 @@
 # Package Management Systems
 
-![package_management](../images/package_management.png)
+![package_management](images/package_management.png)
