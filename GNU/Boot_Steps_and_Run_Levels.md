@@ -50,7 +50,7 @@ Enables the level to be activated and loaded.
 
 ![learnrunlevel](../Images/learnrunlevel.png)
 
-
+![lr1](../Images/lr1.png)
     // runlevel file lays on tha directory:
     /etc/rc{levelNo}.d 
 
