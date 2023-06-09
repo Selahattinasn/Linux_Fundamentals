@@ -29,10 +29,10 @@ For more info from belgeler.org
 
 ![bash_tips](../Images/bash_tips.png)
 
-## info Commands
+## History Commands
 
-![infocom](../Images/infocom.png)
+![history](../Images/history.png)
 
-## info Commands
+## Alias Commands
 
-![infocom](../Images/infocom.png)
+![aliascom](../Images/aliascom.png)
