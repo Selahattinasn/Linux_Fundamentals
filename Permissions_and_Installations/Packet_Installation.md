@@ -1,6 +1,6 @@
 ![pack_instal1](../Images/pack_instal1.png)
 
-We have selected a mirroring_url as we isntall the OS. The mirror adress will be set in for Debian ***/etc/apt/sources.list***/ or for CentOS ***//etc/yum.repos.d***/ .
+We have selected a mirroring_url as we isntall the OS. The mirror adress will be set in for Debian ***/etc/apt/sources.list***/ or for CentOS ***/etc/yum.repos.d***/ .
 
 ![pack_instal2](../Images/pack_instal2.png)
 
