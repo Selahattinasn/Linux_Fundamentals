@@ -47,13 +47,15 @@ Enables the level to be activated and loaded.
 
     // to see the run_level on we work use:
     runlevel
-    
+
 ![learnrunlevel](../Images/learnrunlevel.png)
 
 
     // runlevel file lays on tha directory:
     /etc/rc{levelNo}.d 
 
-we have the ability to modify runlevel4 
+we have the ability to modify runlevel4 .
+
 we are generally on runlevel5.
+
 runlevel6 is the restart mode.
