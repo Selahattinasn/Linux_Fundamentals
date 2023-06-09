@@ -1,7 +1,8 @@
 
 ![directory_structure1](../Images/directory_structure1.png)
 Linux means fiels; thats why we must know tis structure. 
-
+| directory | usage |
+| --------- | ----- |
 | /     | root 
 | /bin  | binaryes of commands for normal_user are here.  
 | /sbin | binaries of commands for root_user are here. 
