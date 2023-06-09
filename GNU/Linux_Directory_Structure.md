@@ -17,6 +17,9 @@ Linux means fiels; thats why we must know tis structure.
 
 
 ![directory_structure2](../Images/directory_structure2.png)
+
+| directory | usage |
+| --------- | ----- |
 | /mnt  | Temporaryly mounted file_systems are here. 
 | /opt  | The library_files of applikations, that have their own libraries are hier. Ex: /opt/winrar
 | /srv  | Service_Files
