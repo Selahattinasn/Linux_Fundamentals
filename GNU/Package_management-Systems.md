@@ -1,6 +1,6 @@
 # Package Management Systems
 
-![package_management](../images/package_management.png)
+![package_management](../Images/package_management.png)
 
 There are two ways to install a program in Linux. 
 + to download the Source_Code and to compile the SourceCode
