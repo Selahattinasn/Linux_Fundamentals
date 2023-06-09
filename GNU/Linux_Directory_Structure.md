@@ -10,8 +10,7 @@ Linux means fiels; thats why we must know tis structure.
 | /sbin | binaries of commands for root_user are here. 
 | /etc  | all system and user Configurations_Files are here. For example : resolv.conf for DNS configurations. 
 | /dev  | Hardware_files; Example; sda5 5'th disk. 
-| /proc | Prozess Infos are here: 
-          Exmple: /proc/meminfo ; /proc/cpuinfo
+| /proc | Prozess Infos are here: Example: /proc/meminfo ; /proc/cpuinfo
 | /var  | Varisables, example: /var/log/auth.log
 | /temp | Temporary files are here. For example any .rar file ist    firt in /temp directory opened and then in anotehr directory transferred. 
 | /home | Applicationa of users , or files of users are here. ~ means home 
