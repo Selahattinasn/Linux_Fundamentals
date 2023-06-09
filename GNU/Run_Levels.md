@@ -23,7 +23,8 @@ Any Opersaion System will be searcht , that is defined in BIOS defined. MBR is t
 
     file mbr_details // we get the response:" mbr_details: DOS/MBR boot sector"
 
-
+![lsblk](../Images/lsblk.png)
+![fdisk_-l](../Images/fdisk_-l.png)
 ### GRUB
 In the Opening_Phase will be shown a Menü of possible OS. The Starting of OS beins based on some parameters, special for choosen OS. 
 
