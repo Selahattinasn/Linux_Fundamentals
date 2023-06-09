@@ -1,4 +1,4 @@
-# RunLevels
+# BOOT Processes and RunLevels
 Enables the level to be activated and loaded.
 
 ![run_steps](../Images/run_steps.png)
@@ -35,10 +35,18 @@ In the Opening_Phase will be shown a Menü of possible OS. The Starting of OS be
 ### Kernel (initrd) 
 It is an image called initial RAMdisk. It is a temporary file that helps during the kernel and real file system loading. All directories are mounted here to the operating system. Its function ends when the operating system is successfully loaded.
 
+initrd is an image_file with ***.img*** extension. It contains the necessary binaries for OS-Start.like (bin, /sbin)
+
 ### init
 After installing the kernel properly, its initial process 'init' is started. It starts the process defined at the running level (runlevels) of the system.
 
-
-
+### runLevels
+Enables the level to be activated and loaded.
 
 ![run_levels](../Images/run_levels.png)
+
+    // to see the run_level on we work use:
+    runlevel
+
+    // runlevel file lays on tha directory:
+    /etc/rc{levelNo}.d 
