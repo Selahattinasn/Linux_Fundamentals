@@ -10,3 +10,5 @@ To install a progran, every Linux_Distor uses its own package manager. Actually 
 
 
 Packet: Programs, that are already compiled and in a repo served for us to install. 
+
+![kavram](../Images/kavram.png)
