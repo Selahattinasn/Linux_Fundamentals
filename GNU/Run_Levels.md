@@ -25,6 +25,10 @@ Any Opersaion System will be searcht , that is defined in BIOS defined. MBR is t
 
 ![lsblk](../Images/lsblk.png)
 ![fdisk_-l](../Images/fdisk_-l.png)
+
+![fiel_details](../Images/fiel_details.png)
+![grub_show](../Images/grub_show.png)
+
 ### GRUB
 In the Opening_Phase will be shown a Menü of possible OS. The Starting of OS beins based on some parameters, special for choosen OS. 
 
