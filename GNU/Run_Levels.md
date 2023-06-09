@@ -10,20 +10,20 @@ when all hardware is functional goes to next step (MBR)
 ### MBR 
 Any Opersaion System will be searcht , that is defined in BIOS defined. MBR is the first 512 B long Sector in the disk. MBR gives info for the File_System and Operating_System. GRUB_info is also heer kept. 
 
-'''bash
-// we will see the MBR sector
-lsblk  // shows the disk and partitions info. ***sda*** is physical disk; sad1, sda2 are the logical partitions. 
 
-sudo su -
-fidsk -l   // this is the same as lsblk; But somteime befor running this commadn we must go into the /sbin folder. 
+    // we will see the MBR sector
+    lsblk  // shows the disk and partitions info. ***sda*** is physical disk; sad1, sda2 are the logical partitions. 
 
-// lets read the first 512 B lang Part of ***sda*** and write the info in a file 
-dd if=/dev/sda of=/home/otto/mbr_details bs=514 count=1
+    // this is the same as lsblk; But somteime befor running this commadn we must go into the /sbin folder.
+    sudo su -
+    fidsk -l   
 
-file mbr_details
-// we get the response:" mbr_details: DOS/MBR boot sector"
+    // lets read the first 512 B lang Part of ***sda*** and write the info in a file 
+    dd if=/dev/sda of=/home/otto/mbr_details bs=514 count=1
 
-'''
+    file mbr_details // we get the response:" mbr_details: DOS/MBR boot sector"
+
+
 ### GRUB
 In the Opening_Phase will be shown a Menü of possible OS. The Starting of OS beins based on some parameters, special for choosen OS. 
 
