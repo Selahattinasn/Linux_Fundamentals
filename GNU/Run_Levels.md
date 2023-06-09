@@ -23,7 +23,7 @@ dd if=/dev/sda of=/home/otto/mbr_details bs=514 count=1
 file mbr_details
 // we get the response:" mbr_details: DOS/MBR boot sector"
 
-
+'''
 ### GRUB
 In the Opening_Phase will be shown a Menü of possible OS. The Starting of OS beins based on some parameters, special for choosen OS. 
 
