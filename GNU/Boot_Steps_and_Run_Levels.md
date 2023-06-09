@@ -51,8 +51,13 @@ Enables the level to be activated and loaded.
 ![learnrunlevel](../Images/learnrunlevel.png)
 
 ![lr1](../Images/lr1.png)
+
+
     // runlevel file lays on tha directory:
     /etc/rc{levelNo}.d 
+The filenames starting with ***S*** work as we get in;
+The filenames starting with ***K*** work as we leave, 
+![rc2](../Images/rc2.png)
 
 we have the ability to modify runlevel4 .
 
