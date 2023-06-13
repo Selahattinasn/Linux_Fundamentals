@@ -19,13 +19,14 @@ We have selected a mirroring_url as we install the OS. The mirror adress will be
 ***dpkg -l*** command *lists all packages* in the system .
 ![pack_instal5](../Images/pack_instal5.png)
 
-***dpkg --get-selections*** command *lists all installed and uninstalled programs* in the system . It gives the list and installation/uninstallatio-status. 
+***dpkg --get-selections*** command *lists all installed and uninstalled programs* in the system . It gives the list and info of  installation/uninstallatio-status. 
 ![pack_instal6](../Images/pack_instal6.png)
 
     //
     dpkg --get-selections
 
 this command will gie us a long long list. To filter a specific program/packet we shoul/can grep the output. For examlpe let's control gedit-program. 
+
     //
     dpkg --get-selections | grep gedit
 
