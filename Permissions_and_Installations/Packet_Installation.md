@@ -33,23 +33,50 @@ this command will gie us a long long list. To filter a specific program/packet w
 
 ***dpkg -s <program_name.deb>*** command *gives us the info about the given program*. 
 
+    // For example: let get info abaou gedit:
+    dpkg -s gedit
+![pack_instal7](../Images/pack_instal7.png)
+
+![pack_instal8](../Images/pack_instal8.png)
+
 ***dpkg -L <program_name.deb>*** command *show the inhalt of the Package, where given program is*. 
 
 ***dpkg --info <packet_name.deb>*** command gives us the info of the packet, that is not yet installed, is just in repo. That why the extension of the packet is ***.deb*** . 
 
 A package changes into a program after the installation. Thats why packets have an extension. We extract codes from packages and the codes will be then programs. 
 
+![pack_instal9](../Images/pack_instal9.png)
+bir paketi veya paket grubunu ("*.deb") install edebilmek icin ***sudo*** yetksin sahip olunmalidir. 
+
 ***dpkg -c <packet_name.deb>*** command gives us the info of the place, on where the packet will be installed. 
 
-***dpkg -i <packet_name.deb>*** command installs the packet. With the usage of the  ***"wildcard * "*** can multiple installation is also possible. 
+***dpkg -i <packet_name.deb>*** command installs the packet. With the usage of the  
+
+![pack_instal9](../Images/pack_instal9.png)
+
+We need to update && upgrade to avoid errors by Installaton. 
+
+
+***"wildcard * "*** can multiple installation is also possible. 
 
 ***dpkg -reconfigure <program_name>*** command will repair the already installed program. 
 
 ***dpkg -P <program_name>*** command will prune the already installed program. 
 
+"-P" or "--purge"
+
+
 # APT
 
 ***apt-get install <program_name>*** command install the program from repo. 
+
+    //
+    sudo apt-get install chromium
+
+    // Bu program ile vmware in cozuburluk sorunu hallolur. Kopyala, yapistir, surukle-birak fonksiyonlarida aktif olur. 
+    sudo apt install open-vm-tools
+
+!!! To Open a program, just *write name of the program on console* && *Enter* .
 
 ***apt-cache show <program_name>*** command shows info about to be installed programs. 
 
