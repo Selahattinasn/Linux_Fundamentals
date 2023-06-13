@@ -70,7 +70,7 @@ We need to update && upgrade to avoid errors by Installaton.
 
 ***apt-get install <program_name>*** command install the program from repo. 
 
-    //
+    // Chromun miniversiyonu chromiumdur. 
     sudo apt-get install chromium
 
     // Bu program ile vmware in cozuburluk sorunu hallolur. Kopyala, yapistir, surukle-birak fonksiyonlarida aktif olur. 
