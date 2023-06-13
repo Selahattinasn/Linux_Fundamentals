@@ -75,6 +75,8 @@ We need to update && upgrade to avoid errors by Installaton.
 
     // Bu program ile vmware in cozuburluk sorunu hallolur. Kopyala, yapistir, surukle-birak fonksiyonlarida aktif olur. 
     sudo apt install open-vm-tools
+    // or
+    sudo apt install open-vm-tools-desktop
 
 !!! To Open a program, just *write name of the program on console* && *Enter* .
 
