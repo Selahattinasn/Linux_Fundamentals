@@ -10,5 +10,5 @@ To install from source-code we need:
    + ./configure
    + make
    + make install
-   # -/<fileName>.sh
+   + ./<fileName>.sh
 
