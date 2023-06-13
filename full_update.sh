@@ -1,3 +1,3 @@
 #!/bin/bash
 
-apt update && apt upgrade && apt dist-upgrade && apt autoclean && apt autoremove
+sudo apt update -y && sudo apt upgrade -y && sudo apt dist-upgrade -y && sudo apt autoclean -y && sudo apt autoremove -y
