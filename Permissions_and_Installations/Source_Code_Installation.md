@@ -64,3 +64,7 @@ And to be able to install this source-code we must install framework :
 
     // direcktly to install the source-code
     ./dkms.install.sh
+
+Aslinda source codun nasil install edilecegi genelde Readme.md de yazili olur. 
+
+![source_instal12](../Images/source_instal12.png)
