@@ -20,11 +20,13 @@ The InodID s for a file system use command " df -i " .
 
 ![pack_instal1](../Images/Symbolink1.png)
 
+
+
 The command " find -type f -links +1 ls " is important ; because the file manager can not distinguishes the hardlinks.
+![pack_instal1](../Images/Symbolink2.png)
 
 !!! To copy all content a folder use " * " wildcard. 
-
 ![pack_instal1](../Images/Symbolink5.png)
 
 
-![pack_instal1](../Images/Symbolink2.png)
+
