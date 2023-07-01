@@ -8,7 +8,7 @@ Any file or folder have unique ID's called Inode_ID.
 
 **The InodID's of Symbolink are UNIQ.**
 
-**But the InodID of HarLinks are NOT_UNIQ.**
+**But the InodID of HarLinks are SAME with original.**
 
 We can see inodeId's of files with command " ls -li " .
 
