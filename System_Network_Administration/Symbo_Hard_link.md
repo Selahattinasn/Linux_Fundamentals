@@ -7,6 +7,7 @@ Hard-links are the actual copy of a file. Althougt the original file is eraed we
 Any file or folder have unique ID's called Inode_ID.
 
 **The InodID's of Symbolink are UNIQ.**
+
 **But the InodID of HarLinks are NOT_UNIQ.**
 
 We can see inodeId's of files with command " ls -li " .
