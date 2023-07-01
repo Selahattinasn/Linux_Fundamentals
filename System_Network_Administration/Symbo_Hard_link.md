@@ -22,7 +22,7 @@ The InodID s for a file system use command " df -i " .
 
 
 
-The command " find -type f -links +1 ls " is important ; because the file manager can not distinguishes the hardlinks. Even if the name of the files are different, this command shows the hardlinks. Because harlinks is related to the content; not the name.
+The command " find -type f -links +1 ls " is important ; because the file manager can not distinguishes the hardlinks. Even if the name of the files are different, this command shows the hardlinks. Because harlink is related to the content; not the name.
 ![pack_instal1](../Images/Symbolink2.png)
 Note that: Even if the filenames of hardlinks are different from original, the ids will be the same. Because InodID is based on content. 
 Even if we delete the orginal, hsrdlink will survive. 
