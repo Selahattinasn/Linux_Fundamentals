@@ -1,4 +1,4 @@
-# FEDORA INSTALLATION
+# MASCHINE INSTALLATION
 
 1. Download Fedora from: 
 https://fedoraproject.org/server/download/
