@@ -131,3 +131,6 @@ We should open a root account.
 
 We can specify advanced group and home configurations here. 
 ![pack_instal1](../Images/fedora43png)
+
+And server.
+![pack_instal1](../Images/fedora44png)
