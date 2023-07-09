@@ -108,29 +108,29 @@ in this chooice LVM Partition would be logically seperated as another disk.
 # Network Host Name
 
 We can see the IP s came from DHCP. or we can manually and statically. configure them. 
-![pack_instal1](../Images/fedora33png)
- Its importatnt to have in this section a netork connection to download the packages. 
+![pack_instal1](../Images/fedora33.png)
+Its importatnt to have in this section a netork connection to download the packages. 
 
- # ROOT account:
+# ROOT account:
 
-![pack_instal1](../Images/fedora39png)
+![pack_instal1](../Images/fedora39.png)
 
 We should open a root account. 
 
-![pack_instal1](../Images/fedora40png)
+![pack_instal1](../Images/fedora40.png)
 
-![pack_instal1](../Images/fedora41png)
+![pack_instal1](../Images/fedora41.png)
 
 ***For root-account ssh is not recommenden***. But if we want we open later. 
 
 # USER account
 
-![pack_instal1](../Images/fedora38png)
+![pack_instal1](../Images/fedora38.png)
 
-![pack_instal1](../Images/fedora42png)
+![pack_instal1](../Images/fedora42.png)
 
 We can specify advanced group and home configurations here. 
-![pack_instal1](../Images/fedora43png)
+![pack_instal1](../Images/fedora43.png)
 
 And server.
-![pack_instal1](../Images/fedora44png)
+![pack_instal1](../Images/fedora44.png)
